@@ -1,0 +1,71 @@
+{
+  "orders": [
+    {
+      "isPaid": true,
+      "products": [
+        {
+          "prodname": "iphone 5",
+          "prodId": 1,
+          "price": 5000000.0,
+          "amount": 2,
+          "total": 10000000.0
+        }
+      ],
+      "orderId": 1571,
+      "total": 10000000.0,
+      "customer": {
+        "id": 2966,
+        "name": "nguyen van b",
+        "address": "dsnkdksd",
+        "phoneNum": 54545
+      }
+    },
+    {
+      "isPaid": true,
+      "products": [
+        {
+          "prodname": "iphone 8",
+          "prodId": 4,
+          "price": 8000000.0,
+          "amount": 2,
+          "total": 16000000.0
+        },
+        {
+          "prodname": "iphone 7",
+          "prodId": 3,
+          "price": 7000000.0,
+          "amount": 4,
+          "total": 28000000.0
+        }
+      ],
+      "orderId": 4292,
+      "total": 59000000.0,
+      "customer": {
+        "id": 6162,
+        "name": "nguyen van a",
+        "address": "quang tri",
+        "phoneNum": 79151541
+      }
+    },
+    {
+      "isPaid": true,
+      "products": [
+        {
+          "prodname": "iphone 6",
+          "prodId": 2,
+          "price": 6000000.0,
+          "amount": 2,
+          "total": 12000000.0
+        }
+      ],
+      "orderId": 1761,
+      "total": 12000000.0,
+      "customer": {
+        "id": 7457,
+        "name": "phan phuc vui",
+        "address": "nguyen tri phuong",
+        "phoneNum": 5154546
+      }
+    }
+  ]
+}

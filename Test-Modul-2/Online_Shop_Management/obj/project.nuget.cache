@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SvvqdaFikD/EK/zYdQYyrXoC/D1DJH7kkRq9tksu8wfJIK1RqKIHT0emz3mN6bFRNMQ7zHRFxH8th0C0ekD/9Q==",
+  "success": true,
+  "projectFilePath": "D:\\Collections\\Test-Modul-2\\Online_Shop_Management\\Online_Shop_Management.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

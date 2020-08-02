@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "isBoss": true,
+      "name": "le thien hong son",
+      "account": {
+        "userName": "hongson",
+        "passWord": "271196"
+      }
+    },
+    {
+      "isBoss": false,
+      "name": "phan phuc vui",
+      "account": {
+        "userName": "phucvui",
+        "passWord": "789"
+      }
+    },
+    {
+      "isBoss": false,
+      "name": "minh tan",
+      "account": {
+        "userName": "minhtan123",
+        "passWord": "123"
+      }
+    }
+  ]
+}

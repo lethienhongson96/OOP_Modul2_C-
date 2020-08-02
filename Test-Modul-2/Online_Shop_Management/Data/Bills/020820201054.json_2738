@@ -1,0 +1,21 @@
+{
+  "isPaid": false,
+  "products": [
+    {
+      "prodname": "iphone 7",
+      "prodId": 3,
+      "price": 7000000.0,
+      "amount": 5,
+      "total": 35000000.0
+    }
+  ],
+  "CreateAt": "2020-08-02T10:54:59.6496081+07:00",
+  "orderId": 2738,
+  "total": 35000000.0,
+  "customer": {
+    "id": 8042,
+    "name": "nguyen van a",
+    "address": "quang tri",
+    "phoneNum": 1123456
+  }
+}
