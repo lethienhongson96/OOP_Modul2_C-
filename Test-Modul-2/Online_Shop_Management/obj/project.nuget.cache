@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SvvqdaFikD/EK/zYdQYyrXoC/D1DJH7kkRq9tksu8wfJIK1RqKIHT0emz3mN6bFRNMQ7zHRFxH8th0C0ekD/9Q==",
+  "dgSpecHash": "nfJt+2nvHp5KAS3hzqSintl/OqcAApNv1WW7Zfog3Db6eg0Ko+ERTQaAXbe10tl2hvtMbIsNSlL3UXWYYi2WpQ==",
   "success": true,
-  "projectFilePath": "D:\\Collections\\Test-Modul-2\\Online_Shop_Management\\Online_Shop_Management.csproj",
+  "projectFilePath": "D:\\OOP_Modul2_C#\\Test-Modul-2\\Online_Shop_Management\\Online_Shop_Management.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],

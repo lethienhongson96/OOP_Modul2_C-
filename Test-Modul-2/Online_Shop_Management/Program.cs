@@ -18,12 +18,16 @@ namespace Online_Shop_Management
                 string checkstr = LoginMenu();
                 if (checkstr == All_Menu_Text.Exit)
                     break;
+
                 else if (checkstr == All_Menu_Text.Boss)
                     allMenuForBoss();
+
                 else if (checkstr == All_Menu_Text.Staff)
                     orderService();
+
                 else
                     Console.WriteLine(All_Menu_Text.WrongMess);
+
             } while (true);
         }
         public static string LoginMenu()
@@ -43,12 +47,16 @@ namespace Online_Shop_Management
             {
                 All_Menu_Text.chooseFromAdmin();
                 int checkpress = Read_Write.GetPress();
+
                 if (checkpress == All_Menu_Text.Back_Exit)
                     break;
+
                 if (checkpress == 1)
                     employeeService();
+
                 else
                     orderService();
+
             } while (true);
         }
         public static void employeeService()

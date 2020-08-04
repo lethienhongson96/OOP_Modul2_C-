@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Collections\\Test-Modul-2\\Online_Shop_Management\\Online_Shop_Management.csproj": {}
+    "D:\\OOP_Modul2_C#\\Test-Modul-2\\Online_Shop_Management\\Online_Shop_Management.csproj": {}
   },
   "projects": {
-    "D:\\Collections\\Test-Modul-2\\Online_Shop_Management\\Online_Shop_Management.csproj": {
+    "D:\\OOP_Modul2_C#\\Test-Modul-2\\Online_Shop_Management\\Online_Shop_Management.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Collections\\Test-Modul-2\\Online_Shop_Management\\Online_Shop_Management.csproj",
+        "projectUniqueName": "D:\\OOP_Modul2_C#\\Test-Modul-2\\Online_Shop_Management\\Online_Shop_Management.csproj",
         "projectName": "Online_Shop_Management",
-        "projectPath": "D:\\Collections\\Test-Modul-2\\Online_Shop_Management\\Online_Shop_Management.csproj",
+        "projectPath": "D:\\OOP_Modul2_C#\\Test-Modul-2\\Online_Shop_Management\\Online_Shop_Management.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Collections\\Test-Modul-2\\Online_Shop_Management\\obj\\",
+        "outputPath": "D:\\OOP_Modul2_C#\\Test-Modul-2\\Online_Shop_Management\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

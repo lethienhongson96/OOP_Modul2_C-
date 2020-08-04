@@ -66,6 +66,26 @@
         "address": "nguyen tri phuong",
         "phoneNum": 5154546
       }
+    },
+    {
+      "isPaid": true,
+      "products": [
+        {
+          "prodname": "iphone 5",
+          "prodId": 1,
+          "price": 3000000.0,
+          "amount": 1,
+          "total": 3000000.0
+        }
+      ],
+      "orderId": 4395,
+      "total": 3000000.0,
+      "customer": {
+        "id": 262,
+        "name": "le van son",
+        "address": "sai gon",
+        "phoneNum": 4646464
+      }
     }
   ]
 }

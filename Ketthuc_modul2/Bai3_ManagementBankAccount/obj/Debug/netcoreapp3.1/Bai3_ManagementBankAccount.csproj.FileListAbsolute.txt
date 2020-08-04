@@ -1,0 +1,13 @@
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai3_ManagementBankAccount\obj\Debug\netcoreapp3.1\Bai3_ManagementBankAccount.csprojAssemblyReference.cache
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai3_ManagementBankAccount\obj\Debug\netcoreapp3.1\Bai3_ManagementBankAccount.AssemblyInfoInputs.cache
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai3_ManagementBankAccount\obj\Debug\netcoreapp3.1\Bai3_ManagementBankAccount.AssemblyInfo.cs
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai3_ManagementBankAccount\obj\Debug\netcoreapp3.1\Bai3_ManagementBankAccount.csproj.CoreCompileInputs.cache
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai3_ManagementBankAccount\bin\Debug\netcoreapp3.1\Bai3_ManagementBankAccount.exe
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai3_ManagementBankAccount\bin\Debug\netcoreapp3.1\Bai3_ManagementBankAccount.deps.json
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai3_ManagementBankAccount\bin\Debug\netcoreapp3.1\Bai3_ManagementBankAccount.runtimeconfig.json
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai3_ManagementBankAccount\bin\Debug\netcoreapp3.1\Bai3_ManagementBankAccount.runtimeconfig.dev.json
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai3_ManagementBankAccount\bin\Debug\netcoreapp3.1\Bai3_ManagementBankAccount.dll
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai3_ManagementBankAccount\bin\Debug\netcoreapp3.1\Bai3_ManagementBankAccount.pdb
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai3_ManagementBankAccount\obj\Debug\netcoreapp3.1\Bai3_ManagementBankAccount.dll
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai3_ManagementBankAccount\obj\Debug\netcoreapp3.1\Bai3_ManagementBankAccount.pdb
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai3_ManagementBankAccount\obj\Debug\netcoreapp3.1\Bai3_ManagementBankAccount.genruntimeconfig.cache

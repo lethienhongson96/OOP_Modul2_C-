@@ -1,0 +1,13 @@
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai2_Array\bin\Debug\netcoreapp3.1\Bai2_Array.exe
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai2_Array\bin\Debug\netcoreapp3.1\Bai2_Array.deps.json
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai2_Array\bin\Debug\netcoreapp3.1\Bai2_Array.runtimeconfig.json
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai2_Array\bin\Debug\netcoreapp3.1\Bai2_Array.runtimeconfig.dev.json
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai2_Array\bin\Debug\netcoreapp3.1\Bai2_Array.dll
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai2_Array\bin\Debug\netcoreapp3.1\Bai2_Array.pdb
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai2_Array\obj\Debug\netcoreapp3.1\Bai2_Array.csprojAssemblyReference.cache
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai2_Array\obj\Debug\netcoreapp3.1\Bai2_Array.AssemblyInfoInputs.cache
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai2_Array\obj\Debug\netcoreapp3.1\Bai2_Array.AssemblyInfo.cs
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai2_Array\obj\Debug\netcoreapp3.1\Bai2_Array.csproj.CoreCompileInputs.cache
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai2_Array\obj\Debug\netcoreapp3.1\Bai2_Array.dll
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai2_Array\obj\Debug\netcoreapp3.1\Bai2_Array.pdb
+D:\OOP_Modul2_C#\Ketthuc_modul2\Bai2_Array\obj\Debug\netcoreapp3.1\Bai2_Array.genruntimeconfig.cache

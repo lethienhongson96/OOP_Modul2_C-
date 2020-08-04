@@ -1,0 +1,21 @@
+{
+  "isPaid": false,
+  "products": [
+    {
+      "prodname": "iphone 5",
+      "prodId": 1,
+      "price": 3000000.0,
+      "amount": 4,
+      "total": 12000000.0
+    }
+  ],
+  "CreateAt": "2020-08-03T09:15:18.5713208+07:00",
+  "orderId": 8041,
+  "total": 12000000.0,
+  "customer": {
+    "id": 5631,
+    "name": "vinh di lang",
+    "address": "di lang",
+    "phoneNum": 113
+  }
+}

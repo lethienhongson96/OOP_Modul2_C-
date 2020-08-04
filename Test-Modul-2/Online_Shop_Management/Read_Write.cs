@@ -8,7 +8,7 @@ namespace Online_Shop_Management
 {
     class Read_Write
     {
-        public static string path = @"D:\Collections\Test-Modul-2\Online_Shop_Management\Data";
+        public static string path = @"D:\OOP_Modul2_C#\Test-Modul-2\Online_Shop_Management\Data";
         public static string OrderFile = @"OrderFile.json";
         public static string empFile = @"employeeFile.json";
         public static string ProdListFile = @"ProductListFile.json";
@@ -54,10 +54,8 @@ namespace Online_Shop_Management
 
         public static int InputId()
         {
-            Console.Write("enter id order: ");
+            Console.Write("enter id : ");
             return Convert.ToInt32(Console.ReadLine());
         }
-
-        
     }
 }

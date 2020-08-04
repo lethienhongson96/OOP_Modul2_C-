@@ -100,15 +100,25 @@ namespace Online_Shop_Management
         {
             if (FindProd(prod.prodId) == null)
             {
-                prod.amount = amount;
-                prod.SetTotalOfProd();
-                products.Add(prod);
+                if(amount<=0)
+                    Console.WriteLine("not allow !!!");
+                else
+                {
+                    prod.amount = amount;
+                    prod.SetTotalOfProd();
+                    products.Add(prod);
+                }
             }
 
             else
             {
-                FindProd(prod.prodId).amount += amount;
-                FindProd(prod.prodId).SetTotalOfProd();
+                if (FindProd(prod.prodId).amount + amount <= 0)
+                    Console.WriteLine("not allow !!!");
+                else
+                {
+                    FindProd(prod.prodId).amount += amount;
+                    FindProd(prod.prodId).SetTotalOfProd();
+                }
             }
             SetTotalOrder();
         }
@@ -220,6 +230,7 @@ namespace Online_Shop_Management
             Product product = new Product();
             Console.WriteLine("enter name product");
             product.prodname = Console.ReadLine();
+
             Console.WriteLine("enter price product");
             product.price = Convert.ToDouble(Console.ReadLine());
             product.amount = 1;

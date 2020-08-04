@@ -1,0 +1,13 @@
+D:\OOP_Modul2_C#\Ketthuc_modul2\Matrix\bin\Debug\netcoreapp3.1\Matrix.exe
+D:\OOP_Modul2_C#\Ketthuc_modul2\Matrix\bin\Debug\netcoreapp3.1\Matrix.deps.json
+D:\OOP_Modul2_C#\Ketthuc_modul2\Matrix\bin\Debug\netcoreapp3.1\Matrix.runtimeconfig.json
+D:\OOP_Modul2_C#\Ketthuc_modul2\Matrix\bin\Debug\netcoreapp3.1\Matrix.runtimeconfig.dev.json
+D:\OOP_Modul2_C#\Ketthuc_modul2\Matrix\bin\Debug\netcoreapp3.1\Matrix.dll
+D:\OOP_Modul2_C#\Ketthuc_modul2\Matrix\bin\Debug\netcoreapp3.1\Matrix.pdb
+D:\OOP_Modul2_C#\Ketthuc_modul2\Matrix\obj\Debug\netcoreapp3.1\Matrix.AssemblyInfoInputs.cache
+D:\OOP_Modul2_C#\Ketthuc_modul2\Matrix\obj\Debug\netcoreapp3.1\Matrix.AssemblyInfo.cs
+D:\OOP_Modul2_C#\Ketthuc_modul2\Matrix\obj\Debug\netcoreapp3.1\Matrix.csproj.CoreCompileInputs.cache
+D:\OOP_Modul2_C#\Ketthuc_modul2\Matrix\obj\Debug\netcoreapp3.1\Matrix.dll
+D:\OOP_Modul2_C#\Ketthuc_modul2\Matrix\obj\Debug\netcoreapp3.1\Matrix.pdb
+D:\OOP_Modul2_C#\Ketthuc_modul2\Matrix\obj\Debug\netcoreapp3.1\Matrix.genruntimeconfig.cache
+D:\OOP_Modul2_C#\Ketthuc_modul2\Matrix\obj\Debug\netcoreapp3.1\Matrix.csprojAssemblyReference.cache

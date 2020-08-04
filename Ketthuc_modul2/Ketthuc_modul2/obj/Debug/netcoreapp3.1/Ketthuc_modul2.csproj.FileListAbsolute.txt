@@ -1,0 +1,13 @@
+D:\OOP_Modul2_C#\Ketthuc_modul2\Ketthuc_modul2\bin\Debug\netcoreapp3.1\Ketthuc_modul2.exe
+D:\OOP_Modul2_C#\Ketthuc_modul2\Ketthuc_modul2\bin\Debug\netcoreapp3.1\Ketthuc_modul2.deps.json
+D:\OOP_Modul2_C#\Ketthuc_modul2\Ketthuc_modul2\bin\Debug\netcoreapp3.1\Ketthuc_modul2.runtimeconfig.json
+D:\OOP_Modul2_C#\Ketthuc_modul2\Ketthuc_modul2\bin\Debug\netcoreapp3.1\Ketthuc_modul2.runtimeconfig.dev.json
+D:\OOP_Modul2_C#\Ketthuc_modul2\Ketthuc_modul2\bin\Debug\netcoreapp3.1\Ketthuc_modul2.dll
+D:\OOP_Modul2_C#\Ketthuc_modul2\Ketthuc_modul2\bin\Debug\netcoreapp3.1\Ketthuc_modul2.pdb
+D:\OOP_Modul2_C#\Ketthuc_modul2\Ketthuc_modul2\obj\Debug\netcoreapp3.1\Ketthuc_modul2.csprojAssemblyReference.cache
+D:\OOP_Modul2_C#\Ketthuc_modul2\Ketthuc_modul2\obj\Debug\netcoreapp3.1\Ketthuc_modul2.AssemblyInfoInputs.cache
+D:\OOP_Modul2_C#\Ketthuc_modul2\Ketthuc_modul2\obj\Debug\netcoreapp3.1\Ketthuc_modul2.AssemblyInfo.cs
+D:\OOP_Modul2_C#\Ketthuc_modul2\Ketthuc_modul2\obj\Debug\netcoreapp3.1\Ketthuc_modul2.csproj.CoreCompileInputs.cache
+D:\OOP_Modul2_C#\Ketthuc_modul2\Ketthuc_modul2\obj\Debug\netcoreapp3.1\Ketthuc_modul2.dll
+D:\OOP_Modul2_C#\Ketthuc_modul2\Ketthuc_modul2\obj\Debug\netcoreapp3.1\Ketthuc_modul2.pdb
+D:\OOP_Modul2_C#\Ketthuc_modul2\Ketthuc_modul2\obj\Debug\netcoreapp3.1\Ketthuc_modul2.genruntimeconfig.cache
