@@ -1,0 +1,12 @@
+D:\OOP_Modul2_C#\HelloWorld\MyLibrary1\bin\Debug\netcoreapp3.1\MyLibrary1.deps.json
+D:\OOP_Modul2_C#\HelloWorld\MyLibrary1\bin\Debug\netcoreapp3.1\MyLibrary1.dll
+D:\OOP_Modul2_C#\HelloWorld\MyLibrary1\obj\Debug\netcoreapp3.1\MyLibrary1.AssemblyInfoInputs.cache
+D:\OOP_Modul2_C#\HelloWorld\MyLibrary1\obj\Debug\netcoreapp3.1\MyLibrary1.AssemblyInfo.cs
+D:\OOP_Modul2_C#\HelloWorld\MyLibrary1\obj\Debug\netcoreapp3.1\MyLibrary1.csprojAssemblyReference.cache
+D:\OOP_Modul2_C#\HelloWorld\MyLibrary1\bin\Debug\netcoreapp3.1\MyLibrary1.runtimeconfig.json
+D:\OOP_Modul2_C#\HelloWorld\MyLibrary1\bin\Debug\netcoreapp3.1\MyLibrary1.runtimeconfig.dev.json
+D:\OOP_Modul2_C#\HelloWorld\MyLibrary1\obj\Debug\netcoreapp3.1\MyLibrary1.genruntimeconfig.cache
+D:\OOP_Modul2_C#\HelloWorld\MyLibrary1\bin\Debug\netcoreapp3.1\MyLibrary1.pdb
+D:\OOP_Modul2_C#\HelloWorld\MyLibrary1\obj\Debug\netcoreapp3.1\MyLibrary1.dll
+D:\OOP_Modul2_C#\HelloWorld\MyLibrary1\obj\Debug\netcoreapp3.1\MyLibrary1.pdb
+D:\OOP_Modul2_C#\HelloWorld\MyLibrary1\obj\Debug\netcoreapp3.1\MyLibrary1.csproj.CoreCompileInputs.cache

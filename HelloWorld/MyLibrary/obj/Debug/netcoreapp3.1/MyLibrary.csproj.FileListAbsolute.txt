@@ -1,0 +1,8 @@
+D:\OOP_Modul2_C#\HelloWorld\MyLibrary\bin\Debug\netcoreapp3.1\MyLibrary.deps.json
+D:\OOP_Modul2_C#\HelloWorld\MyLibrary\bin\Debug\netcoreapp3.1\MyLibrary.dll
+D:\OOP_Modul2_C#\HelloWorld\MyLibrary\obj\Debug\netcoreapp3.1\MyLibrary.csprojAssemblyReference.cache
+D:\OOP_Modul2_C#\HelloWorld\MyLibrary\obj\Debug\netcoreapp3.1\MyLibrary.AssemblyInfoInputs.cache
+D:\OOP_Modul2_C#\HelloWorld\MyLibrary\obj\Debug\netcoreapp3.1\MyLibrary.AssemblyInfo.cs
+D:\OOP_Modul2_C#\HelloWorld\MyLibrary\bin\Debug\netcoreapp3.1\MyLibrary.runtimeconfig.json
+D:\OOP_Modul2_C#\HelloWorld\MyLibrary\bin\Debug\netcoreapp3.1\MyLibrary.runtimeconfig.dev.json
+D:\OOP_Modul2_C#\HelloWorld\MyLibrary\obj\Debug\netcoreapp3.1\MyLibrary.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+D:\OOP_Modul2_C#\SomeQuestion\SomeQuestion\bin\Debug\netcoreapp3.1\SomeQuestion.exe
+D:\OOP_Modul2_C#\SomeQuestion\SomeQuestion\bin\Debug\netcoreapp3.1\SomeQuestion.deps.json
+D:\OOP_Modul2_C#\SomeQuestion\SomeQuestion\bin\Debug\netcoreapp3.1\SomeQuestion.runtimeconfig.json
+D:\OOP_Modul2_C#\SomeQuestion\SomeQuestion\bin\Debug\netcoreapp3.1\SomeQuestion.runtimeconfig.dev.json
+D:\OOP_Modul2_C#\SomeQuestion\SomeQuestion\bin\Debug\netcoreapp3.1\SomeQuestion.dll
+D:\OOP_Modul2_C#\SomeQuestion\SomeQuestion\bin\Debug\netcoreapp3.1\SomeQuestion.pdb
+D:\OOP_Modul2_C#\SomeQuestion\SomeQuestion\obj\Debug\netcoreapp3.1\SomeQuestion.csprojAssemblyReference.cache
+D:\OOP_Modul2_C#\SomeQuestion\SomeQuestion\obj\Debug\netcoreapp3.1\SomeQuestion.AssemblyInfoInputs.cache
+D:\OOP_Modul2_C#\SomeQuestion\SomeQuestion\obj\Debug\netcoreapp3.1\SomeQuestion.AssemblyInfo.cs
+D:\OOP_Modul2_C#\SomeQuestion\SomeQuestion\obj\Debug\netcoreapp3.1\SomeQuestion.csproj.CoreCompileInputs.cache
+D:\OOP_Modul2_C#\SomeQuestion\SomeQuestion\obj\Debug\netcoreapp3.1\SomeQuestion.dll
+D:\OOP_Modul2_C#\SomeQuestion\SomeQuestion\obj\Debug\netcoreapp3.1\SomeQuestion.pdb
+D:\OOP_Modul2_C#\SomeQuestion\SomeQuestion\obj\Debug\netcoreapp3.1\SomeQuestion.genruntimeconfig.cache
