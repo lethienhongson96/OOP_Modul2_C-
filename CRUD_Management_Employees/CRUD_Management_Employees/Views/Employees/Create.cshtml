@@ -4,44 +4,64 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Create Employee</h1>
 
-<h4>Employee</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="FullName" class="control-label"></label>
-                <input asp-for="FullName" class="form-control" />
-                <span asp-validation-for="FullName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="EmpCode" class="control-label"></label>
-                <input asp-for="EmpCode" class="form-control" />
-                <span asp-validation-for="EmpCode" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Position" class="control-label"></label>
-                <input asp-for="Position" class="form-control" />
-                <span asp-validation-for="Position" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="OfficeLocation" class="control-label"></label>
-                <input asp-for="OfficeLocation" class="form-control" />
-                <span asp-validation-for="OfficeLocation" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+<form asp-action="Create">
+    <label class="col-sm-2 col-form-label"></label>
+    <span asp-validation-for="FullName" class="text-danger"></span>
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">@Html.DisplayNameFor(model => model.FullName)</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" asp-for="FullName">
+        </div>
     </div>
-</div>
+    <label class="col-sm-2 col-form-label"></label>
+    <span asp-validation-for="EmpCode" class="text-danger"></span>
+    <div class="form-group row">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">@Html.DisplayNameFor(model => model.EmpCode)</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" asp-for="EmpCode">
+        </div>
+    </div>
+    <label class="col-sm-2 col-form-label"></label>
+    <span asp-validation-for="Position" class="text-danger"></span>
+    <div class="form-group row">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">@Html.DisplayNameFor(model => model.Position)</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" asp-for="Position">
+        </div>
+    </div>
+    <label class="col-sm-2 col-form-label"></label>
+    <span asp-validation-for="OfficeLocation" class="text-danger"></span>
+    <div class="form-group row">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">@Html.DisplayNameFor(model => model.OfficeLocation)</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" asp-for="OfficeLocation">
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-sm-1">
+            <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+    </div>
+</form>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+<form asp-action="Index">
+    <div class="form-group row">
+        <div class="col-sm-6">
+            <button style='font-size: 18px;
+                    color: white;
+                    background-color: forestgreen;
+                    height: 40px;
+                    border-radius: 7px'>
+                <i class='fas fa-arrow-circle-left'></i>
+                Back To List
+            </button>
+        </div>
+    </div>
+</form>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

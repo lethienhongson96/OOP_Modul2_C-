@@ -48,12 +48,11 @@
                     <a asp-action="Edit" asp-route-id="@item.EmpId">
                         <i style='font-size:18px' class='fas'>&#xf304;</i>
                     </a> |
-                    <a asp-action="Details" asp-route-id="@item.EmpId">
-                        <i style='font-size:18px' class='fas'>&#xf0ae;</i>
-                    </a> |
-                    <a asp-action="Delete" asp-route-id="@item.EmpId">
-                        <i class='far fa-trash-alt' style='font-size:18px;color:red'></i>
-                    </a>
+                    <form style="display: inline-block" asp-action="Delete" asp-route-id="@item.EmpId">
+                        <button type="submit">
+                            <i class='far fa-trash-alt' style='font-size:18px;color:red'></i>
+                        </button>
+                    </form>
                 </td>
             </tr>
         }

@@ -169,7 +169,5 @@ D:\OOP_Modul2_C#\CRUD_Management_Employees\CRUD_Management_Employees\bin\Debug\n
 D:\OOP_Modul2_C#\CRUD_Management_Employees\CRUD_Management_Employees\obj\Debug\netcoreapp3.1\CRUD_Management_Employees.csproj.CoreCompileInputs.cache
 D:\OOP_Modul2_C#\CRUD_Management_Employees\CRUD_Management_Employees\obj\Debug\netcoreapp3.1\CRUD_Management_Employees.MvcApplicationPartsAssemblyInfo.cache
 D:\OOP_Modul2_C#\CRUD_Management_Employees\CRUD_Management_Employees\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Create.cshtml.g.cs
-D:\OOP_Modul2_C#\CRUD_Management_Employees\CRUD_Management_Employees\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Delete.cshtml.g.cs
-D:\OOP_Modul2_C#\CRUD_Management_Employees\CRUD_Management_Employees\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Details.cshtml.g.cs
 D:\OOP_Modul2_C#\CRUD_Management_Employees\CRUD_Management_Employees\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Edit.cshtml.g.cs
 D:\OOP_Modul2_C#\CRUD_Management_Employees\CRUD_Management_Employees\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Index.cshtml.g.cs
