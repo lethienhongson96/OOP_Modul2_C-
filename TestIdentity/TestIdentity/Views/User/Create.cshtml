@@ -1,0 +1,26 @@
+﻿@model TestIdentity.ViewModel.AccountForRegister
+
+<form method="post" asp-controller="User" asp-action="Create">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Email">Email</label>
+        <input asp-for="Email" type="email" class="form-control">
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PhoneNum">Phone Number</label>
+        <input asp-for="PhoneNum" type="number" class="form-control">
+        <span asp-validation-for="PhoneNum" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PassWord">Password</label>
+        <input asp-for="PassWord" type="password" class="form-control">
+        <span asp-validation-for="PassWord" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ConfirmPassWord">Confirm PassWord</label>
+        <input asp-for="ConfirmPassWord" type="password" class="form-control">
+        <span asp-validation-for="ConfirmPassWord" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

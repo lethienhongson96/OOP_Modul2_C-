@@ -1,0 +1,10 @@
+﻿@model TestIdentity.ViewModel.Role
+
+<form method="post" asp-controller="Role" asp-action="Edit">
+    <input hidden asp-for="Role_Id" />
+    <div class="form-group">
+        <label asp-for="Role_Name">Role Name</label>
+        <input asp-for="Role_Name" type="text" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200816115805_Init.cs" />
+    <Compile Remove="Migrations\20200816115805_Init.Designer.cs" />
+    <Compile Remove="Migrations\20200816121604_Init.cs" />
+    <Compile Remove="Migrations\20200816121604_Init.Designer.cs" />
+    <Compile Remove="Migrations\20200816123555_Init.cs" />
+    <Compile Remove="Migrations\20200816123555_Init.Designer.cs" />
+    <Compile Remove="Migrations\20200816163323_Init.cs" />
+    <Compile Remove="Migrations\20200816163323_Init.Designer.cs" />
+    <Compile Remove="Migrations\20200816163757_Init.cs" />
+    <Compile Remove="Migrations\20200816163757_Init.Designer.cs" />
+    <Compile Remove="Migrations\20200816164620_Init.cs" />
+    <Compile Remove="Migrations\20200816164620_Init.Designer.cs" />
+    <Compile Remove="Migrations\20200817003450_init.cs" />
+    <Compile Remove="Migrations\20200817003450_init.Designer.cs" />
+    <Compile Remove="Migrations\20200817081554_init.cs" />
+    <Compile Remove="Migrations\20200817081554_init.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
+  </ItemGroup>
+
+</Project>

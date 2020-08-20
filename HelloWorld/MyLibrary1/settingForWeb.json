@@ -1,5 +1,0 @@
-{
-  "ConnectionStrings": {
-    "HelloWorldDatabase": "Server=HONGSON\\SQLEXPRESS;Database=HelloWorld;Trusted_Connection=True;"
-  }
-}
