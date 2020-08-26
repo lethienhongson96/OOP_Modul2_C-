@@ -1,6 +1,6 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @using System.Security.Claims
-@inject SignInManager<IdentityUser> _signInManager
+@inject SignInManager<ApplicationUser> _signInManager
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,12 +31,17 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Role" asp-action="Index">
+                                Role
+                            </a>
+                        </li>
                         @if (_signInManager.IsSignedIn(User))
                         {
                             <li class="nav-item" style="margin-left:600px">
                                 <form method="post" asp-controller="Account" asp-action="Logout">
                                     <button style="color:red">
-                                        @User.Identity.Name.Substring(0, User.Identity.Name.Length - 10)
+                                        @_signInManager.UserManager.GetUserAsync(User).Result.FullName
                                         <i class="fa fa-sign-out"></i>
                                     </button>
                                 </form>
@@ -55,11 +60,6 @@
                                 </a>
                             </li>
                         }
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Role" asp-action="Create">
-                                Create Role
-                            </a>
-                        </li>
                     </ul>
                 </div>
             </div>

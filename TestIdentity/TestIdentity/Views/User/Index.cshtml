@@ -1,4 +1,5 @@
-﻿@model List<Microsoft.AspNetCore.Identity.IdentityUser>
+﻿@model List<ApplicationUser>
+@inject Microsoft.AspNetCore.Identity.UserManager<ApplicationUser> Usermanager
 
 <h1>User Manager</h1>
 
@@ -7,6 +8,9 @@
         <tr>
             <th scope="col">Email</th>
             <th scope="col">Phone Number</th>
+            <th scope="col">Full Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">Roles</th>
             <th scope="col">Action</th>
         </tr>
     </thead>
@@ -18,6 +22,14 @@
                 <tr>
                     <td>@item.Email</td>
                     <td>@item.PhoneNumber</td>
+                    <td>@item.FullName</td>
+                    <td>@item.Address</td>
+                    <td>
+                        @foreach (var role in Usermanager.GetRolesAsync(item).Result)
+                        {
+                            @role
+                        }
+                    </td>
                     <td>
                         <a asp-controller="User" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
                         <a asp-controller="User" asp-action="Delete" asp-route-id="@item.Id"

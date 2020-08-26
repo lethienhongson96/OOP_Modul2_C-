@@ -4,16 +4,17 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using TestIdentity.Models;
 using TestIdentity.ViewModel;
 
 namespace TestIdentity.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly UserManager<IdentityUser> _userManager;
-        private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
 
-        public AccountController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
+        public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
         {
             this._userManager = userManager;
             this._signInManager = signInManager;
@@ -31,8 +32,7 @@ namespace TestIdentity.Controllers
         {
             if (ModelState.IsValid)
             {
-                var result = await _signInManager.PasswordSignInAsync(model.Email,
-                   model.Password, model.RememberMe, false);
+                var result = await _signInManager.PasswordSignInAsync(model.Email,model.Password, model.RememberMe, false);
 
                 if (result.Succeeded)
                 {
@@ -65,15 +65,16 @@ namespace TestIdentity.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Register(AccountForRegister model)
+        public async Task<IActionResult> Register([Bind("Email, FullName", "Password", "ConfirmPassword")]
+                                                  RegisterViewModel model)
         {
             if (ModelState.IsValid)
             {
-                var User = new IdentityUser()
+                var User = new ApplicationUser()
                 {
                     Email = model.Email,
                     UserName = model.Email,
-                    PhoneNumber=model.PhoneNum
+                    FullName=model.FullName
                 };
 
                 var FindResult = _userManager.FindByEmailAsync(model.Email);
@@ -83,7 +84,7 @@ namespace TestIdentity.Controllers
                     return View(model);
                 }
 
-                var result = await _userManager.CreateAsync(User, model.PassWord);
+                var result = await _userManager.CreateAsync(User, model.Password);
                 
                 if(result.Succeeded)
                 {

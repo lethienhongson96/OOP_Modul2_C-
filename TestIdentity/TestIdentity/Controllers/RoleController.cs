@@ -25,11 +25,11 @@ namespace TestIdentity.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Addrole(string roleName)
+        public async Task<IActionResult> Addrole(string rolename)
         {
-            if (roleName != null)
+            if (rolename != null)
             {
-                await _roleManager.CreateAsync(new IdentityRole(roleName.Trim()));
+                await _roleManager.CreateAsync(new IdentityRole(rolename.Trim()));
             }
 
             return RedirectToAction("Index", "Role");

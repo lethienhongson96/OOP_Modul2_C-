@@ -1,0 +1,22 @@
+﻿@model ApplicationUser
+@inject PharmacyWebDbContext _context;
+
+
+<h1>Name: @Model.FullName</h1>
+<h1>SDT: @Model.PhoneNumber</h1>
+<h1>Email: @Model.Email</h1>
+
+<h1>@_context.Addresses.ToList().Find(el => el.Address_Id == Model.Address_Id).HouseNum</h1>
+<h1>@_context.Addresses.ToList().Find(el => el.Address_Id == Model.Address_Id).Ward</h1>
+<h1>@_context.Addresses.ToList().Find(el => el.Address_Id == Model.Address_Id).District</h1>
+<h1>@_context.Addresses.ToList().Find(el => el.Address_Id == Model.Address_Id).Province</h1>
+
+<img src="~/images/@Model.Avatar_Path" alt="Alternate Text" style="width:100px;height:100px" />
+
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-﻿@model TestIdentity.ViewModel.AccountForRegister
+﻿@model TestIdentity.ViewModel.RegisterViewModel
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -64,17 +64,19 @@ Author URL: http://w3layouts.com
                             <input type="email" asp-for="Email" placeholder="" required />
                         </div>
                         <div class="form-input">
-                            <label>Phone Number</label>
-                            <input type="number" asp-for="PhoneNum" placeholder="" required />
+                            <label>Name</label>
+                            <input type="text" asp-for="FullName" placeholder="" required />
+                            <span asp-validation-for="FullName" class="text-danger"></span>
                         </div>
                         <div class="form-input">
                             <label>Password</label>
-                            <input type="password" asp-for="PassWord" placeholder="" required />
+                            <input type="password" asp-for="Password" placeholder="" required />
+                            <span asp-validation-for="Password" class="text-danger"></span>
                         </div>
                         <div class="form-input">
                             <label>Confirm Password</label>
-                            <input type="password" asp-for="ConfirmPassWord" placeholder="" required />
-                            <span asp-validation-for="ConfirmPassWord" class="text-danger"></span>
+                            <input type="password" asp-for="ConfirmPassword" placeholder=""/>
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                         </div>
 
                         <label class="container">

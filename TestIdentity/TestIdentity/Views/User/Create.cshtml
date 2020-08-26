@@ -1,26 +1,53 @@
-﻿@model TestIdentity.ViewModel.AccountForRegister
+﻿@model TestIdentity.ViewModel.AccountForCreate
+@inject Microsoft.AspNetCore.Identity.RoleManager<Microsoft.AspNetCore.Identity.IdentityRole> ManagerRole
 
-<form method="post" asp-controller="User" asp-action="Create">
-    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-    <div class="form-group">
-        <label asp-for="Email">Email</label>
-        <input asp-for="Email" type="email" class="form-control">
-        <span asp-validation-for="Email" class="text-danger"></span>
+
+<form asp-controller="User" asp-action="Create">
+    <div asp-validation-summary="ModelOnly"></div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputEmail4" class="text-danger">Email</label>
+            <input type="email" class="form-control " asp-for="Email" placeholder="Email">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputPassword4" class="text-danger">Full Name</label>
+            <input type="text" class="form-control" asp-for="FullName" placeholder="Full Name">
+        </div>
     </div>
     <div class="form-group">
-        <label asp-for="PhoneNum">Phone Number</label>
-        <input asp-for="PhoneNum" type="number" class="form-control">
-        <span asp-validation-for="PhoneNum" class="text-danger"></span>
+        <label for="inputPassword4" class="text-danger">Password</label>
+        <input type="password" class="form-control" asp-for="Password" placeholder="Password">
     </div>
     <div class="form-group">
-        <label asp-for="PassWord">Password</label>
-        <input asp-for="PassWord" type="password" class="form-control">
-        <span asp-validation-for="PassWord" class="text-danger"></span>
+        <label for="inputPassword4" class="text-danger">Confirm Password</label>
+        <input type="password" class="form-control" asp-for="ConfirmPassWord" placeholder="Confirm password">
     </div>
-    <div class="form-group">
-        <label asp-for="ConfirmPassWord">Confirm PassWord</label>
-        <input asp-for="ConfirmPassWord" type="password" class="form-control">
-        <span asp-validation-for="ConfirmPassWord" class="text-danger"></span>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputCity">address</label>
+            <input type="text" class="form-control" asp-for="Address" placeholder="Address">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputState">Choose Role</label>
+            <select asp-for="Role_Id" class="form-control">
+
+                @foreach (var item in ManagerRole.Roles.ToList())
+                {
+                    if (@item.Name == "Student")
+                    {
+                        <option value="@item.Id" selected>@item.Name</option>
+                    }
+                    else
+                    {
+                        <option value="@item.Id">@item.Name</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+            <label for="inputZip">phone Number</label>
+            <input type="number" class="form-control" asp-for="PhoneNum" placeholder="Phone">
+        </div>
     </div>
     <button type="submit" class="btn btn-primary">Create</button>
 </form>

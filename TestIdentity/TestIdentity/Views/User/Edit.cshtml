@@ -1,4 +1,5 @@
-﻿@model Microsoft.AspNetCore.Identity.IdentityUser
+﻿@model ApplicationUser
+@inject Microsoft.AspNetCore.Identity.RoleManager<Microsoft.AspNetCore.Identity.IdentityRole> ManagerRole
 
 <form method="post" asp-controller="User" asp-action="Edit">
     <input hidden asp-for="Id" />
@@ -10,6 +11,23 @@
     <div class="form-group">
         <label asp-for="PhoneNumber">Phone Number</label>
         <input asp-for="PhoneNumber" type="text" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="FullName">Full Name</label>
+        <input asp-for="FullName" type="text" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Address">Address</label>
+        <input asp-for="Address" type="text" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="inputState">Choose Role</label>
+        <select name="Role_Id" class="form-control">
+            @foreach (var item in ManagerRole.Roles.ToList())
+            {
+                <option value="@item.Id">@item.Name</option>
+            }
+        </select>
     </div>
     <button type="submit" class="btn btn-primary">Save</button>
 </form>

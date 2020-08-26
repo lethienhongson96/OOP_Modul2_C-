@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using CRUD_Management_Employees.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using CRUD_Management_Employees.Models;
 
 namespace CRUD_Management_Employees.Controllers
 {
@@ -41,6 +38,7 @@ namespace CRUD_Management_Employees.Controllers
             {
                 _context.Add(employee);
                 await _context.SaveChangesAsync();
+
                 return RedirectToAction(nameof(Index));
             }
             return View(employee);
@@ -53,8 +51,8 @@ namespace CRUD_Management_Employees.Controllers
             {
                 return NotFound();
             }
-
             var employee = await _context.Employees.FindAsync(id);
+
             if (employee == null)
             {
                 return NotFound();
@@ -103,8 +101,10 @@ namespace CRUD_Management_Employees.Controllers
         public async Task<IActionResult> Delete(int id)
         {
             var employee = await _context.Employees.FindAsync(id);
+
             _context.Employees.Remove(employee);
             await _context.SaveChangesAsync();
+
             return RedirectToAction(nameof(Index));
         }
 
