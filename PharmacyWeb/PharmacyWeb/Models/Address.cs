@@ -10,11 +10,10 @@ namespace PharmacyWeb.Models
     {
         [Key]
         public int Address_Id{ get; set; }
-        public string Province { get; set; }
-        public string District { get; set; }
-        public string Ward { get; set; }
+        public int Province { get; set; }
+        public int District { get; set; }
+        public int Ward { get; set; }
         public string HouseNum { get; set; }
-
         
         public ApplicationUser ApplicationUser{ get; set; }
     }

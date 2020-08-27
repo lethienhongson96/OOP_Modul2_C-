@@ -1,22 +1,86 @@
-﻿@model ApplicationUser
+﻿@model List<ApplicationUser>
 @inject PharmacyWebDbContext _context;
 
+@{
+    var ProvinceList = _context.Province.ToList();
+    var DistrictList = _context.District.ToList();
+    var WardList = _context.Ward.ToList();
+    var AddressList = _context.Addresses.ToList();
 
-<h1>Name: @Model.FullName</h1>
-<h1>SDT: @Model.PhoneNumber</h1>
-<h1>Email: @Model.Email</h1>
+    
+}
+<link href="~/datatables/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
 
-<h1>@_context.Addresses.ToList().Find(el => el.Address_Id == Model.Address_Id).HouseNum</h1>
-<h1>@_context.Addresses.ToList().Find(el => el.Address_Id == Model.Address_Id).Ward</h1>
-<h1>@_context.Addresses.ToList().Find(el => el.Address_Id == Model.Address_Id).District</h1>
-<h1>@_context.Addresses.ToList().Find(el => el.Address_Id == Model.Address_Id).Province</h1>
+<table id="example" class="table table-striped table-bordered" style="width:auto">
+    <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+            <th>Province</th>
+            <th>District</th>
+            <th>Ward</th>
+            <th>House num</th>
+            <th>avatar</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FullName</td>
+                <td>@item.Email</td>
+                <td>@item.PhoneNumber</td>
 
-<img src="~/images/@Model.Avatar_Path" alt="Alternate Text" style="width:100px;height:100px" />
-
-
-
-
-
-
-
-
+                <td>
+                    @ProvinceList.Find(el => el.Id == AddressList.Find(x => x.Address_Id == item.Address_Id).Province).Name
+                </td>
+                <td>
+                    @DistrictList.Find(el => el.Id == AddressList.Find(x => x.Address_Id == item.Address_Id).District).Name
+                </td>
+                <td>
+                    @WardList.Find(el => el.Id == AddressList.Find(x => x.Address_Id == item.Address_Id).Ward).Name
+                </td>
+                <td>
+                    @_context.Addresses.ToList().Find(el => el.Address_Id == item.Address_Id).HouseNum
+                </td>
+                <td>
+                    <img src="~/images/@item.Avatar_Path" alt="Alternate Text" style="width:50px;height:50px"
+                         asp-append-version="true" />
+                </td>
+                <td>
+                    <a asp-controller="Account" asp-action="Edit" asp-route-Id="@item.Id">
+                        <i class="fa fa-pencil" style="font-size:26px"></i>
+                    </a>
+                    <a asp-controller="Account" asp-action="Delete" asp-route-Id="@item.Id" onclick="return confirm('are you sure?');">
+                        <i class="fa fa-trash-o" style="font-size:28px;color:red"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+            <th>Province</th>
+            <th>District</th>
+            <th>Ward</th>
+            <th>House num</th>
+            <th>avatar</th>
+            <th>Action</th>
+        </tr>
+    </tfoot>
+</table>
+<script>
+    $(document).ready(function () {
+        $('#example').DataTable();
+    });
+</script>
+@section Scripts
+{
+    <script src="~/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="~/datatables/js/dataTables.bootstrap4.min.js"></script>
+}

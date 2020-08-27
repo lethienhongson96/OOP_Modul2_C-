@@ -1,5 +1,4 @@
-﻿
-@model PharmacyWeb.ViewModel.ModelForCreate
+﻿@model PharmacyWeb.ViewModel.ModelForCreate
 @inject PharmacyWebDbContext context;
 @{
 }
@@ -13,7 +12,6 @@
             <input type="text" class="form-control" asp-for="FullName">
             <span asp-validation-for="FullName" class="text-danger"></span>
         </div>
-
     </div>
 
     <div class="form-group row">
@@ -22,7 +20,6 @@
             <input type="email" class="form-control" asp-for="Email" />
             <span asp-validation-for="Email" class="text-danger"></span>
         </div>
-
     </div>
     <div class="form-group row">
         <label class="col-sm-2 col-form-label">Phone Number</label>
@@ -55,7 +52,8 @@
     <div class="form-group row">
         <label class="col-sm-2 col-form-label">Tỉnh Thành</label>
         <div class="col-sm-10">
-            @Html.DropDownListFor(m => m.Province, new SelectList(context.Province.ToList(), "Id", "Name"), "Tỉnh/Thành phố", new { @class = "form-control" })
+            @Html.DropDownListFor(m => m.Province, new SelectList(context.Province.ToList(), "Id", "Name"),
+           "Tỉnh/Thành phố", new { @class = "form-control" })
         </div>
         <span asp-validation-for="Province"></span>
     </div>
@@ -73,23 +71,14 @@
         </div>
         <span asp-validation-for="Ward"></span>
     </div>
-    <!--<div class="form-group row ">
-        @Html.DropDownListFor(m => m.Province, new SelectList(context.Province.ToList(), "Id", "Name"), "Tỉnh/Thành phố")
-        @Html.DropDownListFor(m => m.District, new SelectList(context.District.ToList(), "Id", "Name"), "Quận/Huyện")
-        @Html.DropDownListFor(m => m.Ward, new SelectList(context.Ward.ToList(), "Id", "Name"), "Xã/Phường")-->
-        @*<select id="ProvinceId" name="ProvinceList" asp-for="Province" asp-items="(new SelectList(_context.Province.ToList(),"Id","Name"))"></select>*@
-    <!--</div>-->
+       
     <div class="form-group row">
         <div class="custom-file">
             <input type="file" class="custom-file-input" id="customFile" asp-for="iformfile_path">
             <label class="custom-file-label" for="customFile">Choose file</label>
         </div>
-        @*<select id="DistrictId" name="DistrictId" asp-for="District" asp-items="@(new SelectList(_context.District.ToList(),"Id","Name"))"></select>*@
     </div>
-    <div class="form-group row">
-
-        @*<select id="WardId" name="WardList" asp-for="Ward" asp-items="@(new SelectList(_context.Ward.ToList(),"Id","Name"))"></select>*@
-    </div>
+    
     <div class="form-group row">
         <label class="col-sm-2 col-form-label">Địa chỉ</label>
         <div class="col-sm-10">

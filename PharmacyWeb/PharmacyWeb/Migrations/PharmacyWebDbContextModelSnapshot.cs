@@ -157,17 +157,17 @@ namespace PharmacyWeb.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("District")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("District")
+                        .HasColumnType("int");
 
                     b.Property<string>("HouseNum")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Province")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Province")
+                        .HasColumnType("int");
 
-                    b.Property<string>("Ward")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Ward")
+                        .HasColumnType("int");
 
                     b.HasKey("Address_Id");
 

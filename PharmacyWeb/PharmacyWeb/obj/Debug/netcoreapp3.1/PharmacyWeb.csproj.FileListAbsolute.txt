@@ -80,7 +80,8 @@ D:\OOP_Modul2_C#\PharmacyWeb\PharmacyWeb\bin\Debug\netcoreapp3.1\Microsoft.Exten
 D:\OOP_Modul2_C#\PharmacyWeb\PharmacyWeb\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 D:\OOP_Modul2_C#\PharmacyWeb\PharmacyWeb\obj\Debug\netcoreapp3.1\PharmacyWeb.csproj.CoreCompileInputs.cache
 D:\OOP_Modul2_C#\PharmacyWeb\PharmacyWeb\obj\Debug\netcoreapp3.1\PharmacyWeb.MvcApplicationPartsAssemblyInfo.cache
-D:\OOP_Modul2_C#\PharmacyWeb\PharmacyWeb\obj\Debug\netcoreapp3.1\Razor\Views\Account\Content.cshtml.g.cs
 D:\OOP_Modul2_C#\PharmacyWeb\PharmacyWeb\obj\Debug\netcoreapp3.1\Razor\Views\Account\Create.cshtml.g.cs
 D:\OOP_Modul2_C#\PharmacyWeb\PharmacyWeb\obj\Debug\netcoreapp3.1\Razor\Views\Account\Index.cshtml.g.cs
 D:\OOP_Modul2_C#\PharmacyWeb\PharmacyWeb\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+D:\OOP_Modul2_C#\PharmacyWeb\PharmacyWeb\bin\Debug\netcoreapp3.1\libman.json
+D:\OOP_Modul2_C#\PharmacyWeb\PharmacyWeb\obj\Debug\netcoreapp3.1\Razor\Views\Account\Edit.cshtml.g.cs
